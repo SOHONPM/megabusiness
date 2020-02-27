@@ -1,0 +1,24 @@
+2020-02-26T00:44:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons starts in the next minute
+2020-02-26T00:44:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons starts in the next minute
+2020-02-26T00:44:45+00:00 NOTICE sync.started :: Starting Sync :: Wed, Feb 26, 2020 12:44 AM
+2020-02-26T00:44:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons_Initial_Sync starts in the next minute
+2020-02-26T00:45:06+00:00 NOTICE coupon_sync.completed :: Done with the coupon sync, queuing up products.
+2020-02-26T00:45:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-02-26T00:45:08+00:00 NOTICE product_sync.success :: addStoreProduct :: #10
+2020-02-26T00:45:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-02-26T00:45:11+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2020-02-26T00:45:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders starts in the next minute
+2020-02-26T00:45:13+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2020-02-26T00:45:13+00:00 NOTICE sync.completed :: Finished Sync :: Wed, Feb 26, 2020 12:45 AM
+2020-02-26T00:47:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 13
+2020-02-26T00:49:06+00:00 ERROR order_submit.tracing_error :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/test/my-account/view-order/13/</p> on 1817 in C:\xampp\htdocs\test\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-02-26T00:51:23+00:00 NOTICE sync.started :: Starting Sync :: Wed, Feb 26, 2020 12:51 AM
+2020-02-26T00:51:25+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons_Initial_Sync starts in the next minute
+2020-02-26T00:51:58+00:00 NOTICE coupon_sync.completed :: Done with the coupon sync, queuing up products.
+2020-02-26T00:51:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-02-26T00:51:59+00:00 NOTICE product_sync.success :: updateStoreProduct :: #10
+2020-02-26T00:51:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products starts in the next minute
+2020-02-26T00:52:02+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2020-02-26T00:52:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders starts in the next minute
+2020-02-26T00:52:04+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2020-02-26T00:52:04+00:00 NOTICE sync.completed :: Finished Sync :: Wed, Feb 26, 2020 12:52 AM
